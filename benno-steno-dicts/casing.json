@@ -2,7 +2,7 @@
 	"TPH-BG": "{:set_space: }{:set_case:normal}",
 	"T-BG": "{:set_case:title}{:set_space:}",
 	"P-BG": "{:set_case:title}{:set_space:}",
-	"C-BG": "{:set_case:title}{:set_space:}{>}",
+	"KR-BG": "{:set_case:title}{:set_space:}{>}",
 	"S-BG": "{:set_case:lower}{:set_space:_}",
 	"S-BGS": "{:set_case:lower}{:set_space:_}",
 	"K-BG": "{:set_case:lower}{:set_space:-}"

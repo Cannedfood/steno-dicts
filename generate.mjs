@@ -58,7 +58,7 @@ const casing = {
 	// "PK" -> "Pascal Case"
 	"P-BG": "{:set_case:title}{:set_space:}",
 	// "CK" -> "Camel Case"
-	"C-BG": "{:set_case:title}{:set_space:}{>}",
+	"KR-BG": "{:set_case:title}{:set_space:}{>}",
 	// "SK" -> "Snake Case"
 	"S-BG": "{:set_case:lower}{:set_space:_}",
 	// "SKS" -> "Screaming Snake Case"
