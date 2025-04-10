@@ -68,4 +68,4 @@ const casing = {
 }
 await fs.writeFile('benno-steno-dicts/casing.json', JSON.stringify(casing, null, '\t'), 'utf-8')
 
-await fs.writeFile('benno-steno-dicts.json', JSON.stringify({ ...movement3, ...casing }, null, '\t'), 'utf-8')
+await fs.writeFile('benno-02-steno-dicts.json', JSON.stringify({ ...movement3, ...casing }, null, '\t'), 'utf-8')
