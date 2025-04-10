@@ -51,19 +51,19 @@ for (const [key, value] of Object.entries(movement2)) {
 await fs.writeFile('benno-steno-dicts/movement.json', JSON.stringify(movement3, null, '\t'), 'utf-8')
 
 const casing = {
-	// "NK" -> "Normal Case"
+	// "NK" -> "normal case"
 	"TPH-BG": "{:set_space: }{:set_case:normal}",
 	// "TK" -> "Title Case"
 	"T-BG": "{:set_case:title}{:set_space:}",
-	// "PK" -> "Pascal Case"
+	// "PK" -> "PascalCase"
 	"P-BG": "{:set_case:title}{:set_space:}",
-	// "CK" -> "Camel Case"
+	// "CK" -> "camelCase"
 	"KR-BG": "{:set_case:title}{:set_space:}{>}",
-	// "SK" -> "Snake Case"
+	// "SK" -> "snake_case"
 	"S-BG": "{:set_case:lower}{:set_space:_}",
-	// "SKS" -> "Screaming Snake Case"
+	// "SKS" -> "SCREAMING_SNAKE_CASE"
 	"S-BGS": "{:set_case:lower}{:set_space:_}",
-	// "KK" -> "Kebab Case"
+	// "KK" -> "kebab-case"
 	"K-BG": "{:set_case:lower}{:set_space:-}",
 }
 await fs.writeFile('benno-steno-dicts/casing.json', JSON.stringify(casing, null, '\t'), 'utf-8')
