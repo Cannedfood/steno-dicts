@@ -72,10 +72,10 @@
 	"#TPHEBGT": "{#Control_L(Delete)}{^}{#Control_L(Delete)}{^}{#Control_L(Delete)}{^}",
 	"#TPHEBGTS": "{#Control_L(Delete)}{^}{#Control_L(Delete)}{^}{#Control_L(Delete)}{^}{#Control_L(Delete)}{^}",
 	"TPH-BG": "{:set_space: }{:set_case:normal}",
-	"T-BK": "{:set_case:title}{:set_space:}",
-	"P-BK": "{:set_case:title}{:set_space:}",
-	"C-BK": "{:set_case:title}{:set_space:}{>}",
-	"S-BK": "{:set_case:lower}{:set_space:_}",
-	"S-BKS": "{:set_case:lower}{:set_space:_}",
-	"K-BK": "{:set_case:lower}{:set_space:-}"
+	"T-BG": "{:set_case:title}{:set_space:}",
+	"P-BG": "{:set_case:title}{:set_space:}",
+	"C-BG": "{:set_case:title}{:set_space:}{>}",
+	"S-BG": "{:set_case:lower}{:set_space:_}",
+	"S-BGS": "{:set_case:lower}{:set_space:_}",
+	"K-BG": "{:set_case:lower}{:set_space:-}"
 }

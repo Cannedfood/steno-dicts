@@ -54,17 +54,17 @@ const casing = {
 	// "NK" -> "Normal Case"
 	"TPH-BG": "{:set_space: }{:set_case:normal}",
 	// "TK" -> "Title Case"
-	"T-BK": "{:set_case:title}{:set_space:}",
+	"T-BG": "{:set_case:title}{:set_space:}",
 	// "PK" -> "Pascal Case"
-	"P-BK": "{:set_case:title}{:set_space:}",
+	"P-BG": "{:set_case:title}{:set_space:}",
 	// "CK" -> "Camel Case"
-	"C-BK": "{:set_case:title}{:set_space:}{>}",
+	"C-BG": "{:set_case:title}{:set_space:}{>}",
 	// "SK" -> "Snake Case"
-	"S-BK": "{:set_case:lower}{:set_space:_}",
+	"S-BG": "{:set_case:lower}{:set_space:_}",
 	// "SKS" -> "Screaming Snake Case"
-	"S-BKS": "{:set_case:lower}{:set_space:_}",
+	"S-BGS": "{:set_case:lower}{:set_space:_}",
 	// "KK" -> "Kebab Case"
-	"K-BK": "{:set_case:lower}{:set_space:-}",
+	"K-BG": "{:set_case:lower}{:set_space:-}",
 }
 await fs.writeFile('benno-steno-dicts/casing.json', JSON.stringify(casing, null, '\t'), 'utf-8')
 
