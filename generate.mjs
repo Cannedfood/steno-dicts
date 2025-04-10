@@ -43,9 +43,9 @@ for (const [key, value] of Object.entries(movement)) {
 		.replace('}{^}', ')}{^}');
 	
 	movement2[key.replace('-', 'EU')] =
-	value
-	.replace('{#', '{Alt_L(Shift_L(')
-	.replace('}{^}', '))}{^}');
+		value
+		.replace('{#', '{Alt_L(Shift_L(')
+		.replace('}{^}', '))}{^}');
 }
 
 // Generate repetitions
