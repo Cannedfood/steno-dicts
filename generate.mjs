@@ -23,6 +23,10 @@ const movement = {
 	"#TPHERB": "{#Control_L(Backspace)}{^}",
 	"#TPH-BG": "{#Control_L(Right)}{^}",
 	"#TPHEBG": "{#Control_L(Delete)}{^}",
+
+	// End of line/Start of line
+	"#TPH-FR": "{#Home}{^}",
+	"#TPH-LG": "{#End}{^}",
 };
 
 // Generate select stuff (basically just add shift if U is pressed)

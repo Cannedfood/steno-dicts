@@ -70,5 +70,21 @@
 	"#TPHEBG": "{#Control_L(Delete)}{^}",
 	"#TPHEBGS": "{#Control_L(Delete)}{^}{#Control_L(Delete)}{^}",
 	"#TPHEBGT": "{#Control_L(Delete)}{^}{#Control_L(Delete)}{^}{#Control_L(Delete)}{^}",
-	"#TPHEBGTS": "{#Control_L(Delete)}{^}{#Control_L(Delete)}{^}{#Control_L(Delete)}{^}{#Control_L(Delete)}{^}"
+	"#TPHEBGTS": "{#Control_L(Delete)}{^}{#Control_L(Delete)}{^}{#Control_L(Delete)}{^}{#Control_L(Delete)}{^}",
+	"#TPH-FR": "{#Home}{^}",
+	"#TPH-FRS": "{#Home}{^}{#Home}{^}",
+	"#TPH-FRT": "{#Home}{^}{#Home}{^}{#Home}{^}",
+	"#TPH-FRTS": "{#Home}{^}{#Home}{^}{#Home}{^}{#Home}{^}",
+	"#TPHUFR": "{Shift_L(Home)}{^}",
+	"#TPHUFRS": "{Shift_L(Home)}{^}{Shift_L(Home)}{^}",
+	"#TPHUFRT": "{Shift_L(Home)}{^}{Shift_L(Home)}{^}{Shift_L(Home)}{^}",
+	"#TPHUFRTS": "{Shift_L(Home)}{^}{Shift_L(Home)}{^}{Shift_L(Home)}{^}{Shift_L(Home)}{^}",
+	"#TPH-LG": "{#End}{^}",
+	"#TPH-LGS": "{#End}{^}{#End}{^}",
+	"#TPH-LGT": "{#End}{^}{#End}{^}{#End}{^}",
+	"#TPH-LGTS": "{#End}{^}{#End}{^}{#End}{^}{#End}{^}",
+	"#TPHULG": "{Shift_L(End)}{^}",
+	"#TPHULGS": "{Shift_L(End)}{^}{Shift_L(End)}{^}",
+	"#TPHULGT": "{Shift_L(End)}{^}{Shift_L(End)}{^}{Shift_L(End)}{^}",
+	"#TPHULGTS": "{Shift_L(End)}{^}{Shift_L(End)}{^}{Shift_L(End)}{^}{Shift_L(End)}{^}"
 }
