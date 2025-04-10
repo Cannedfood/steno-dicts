@@ -39,12 +39,12 @@ for (const [key, value] of Object.entries(movement)) {
 
 	movement2[key.replace('-', 'U')] = 
 		value
-		.replace('{#', '{Shift_L(')
+		.replace('{#', '{#Shift_L(')
 		.replace('}{^}', ')}{^}');
 	
 	movement2[key.replace('-', 'EU')] =
 		value
-		.replace('{#', '{Alt_L(Shift_L(')
+		.replace('{#', '{#Alt_L(Shift_L(')
 		.replace('}{^}', '))}{^}');
 }
 
